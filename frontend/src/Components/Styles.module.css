@@ -1,0 +1,182 @@
+/* loginField */
+.loginForm{
+    position: relative;
+}
+.handleErr{
+    color:red;
+    position: absolute;
+    left:25px;
+    top:250px;
+    font-weight: 400;
+}
+.heading{
+    position:absolute;
+    left:25px;
+    top:150px;
+}
+.formPara{
+    position:absolute;
+    left:25px;
+    top:200px;
+}
+.inputGroupEmail{
+    position:absolute;
+    left:25px;
+    top:280px;
+    width:700px;
+}
+.inputEmail{
+    height:50px;
+    width: 500px;
+    border-radius: 5px;
+    border:1px solid gray;
+    padding-left: 10px;
+}
+.inputGroupPass{
+    position:absolute;
+    left:25px;
+    top:350px;
+    width:700px;
+}
+.inputPass{
+    height:50px;
+    width:500px;
+    border-radius: 5px;
+    border:1px solid gray;
+    padding-left: 10px;
+}
+.loginBtn{
+    position:absolute;
+    left:25px;
+    top:430px;
+    width:170px;
+}
+.buttonPara{
+    position:absolute;
+    left:25px;
+    top:480px;
+}
+.signupPara{
+    font-weight: bold;
+    cursor: pointer;
+    color:black;
+}
+/* mainpage */
+/* navbar */
+.navLogout{
+    color:#ffffff;
+    padding-right: 50px;
+    cursor: pointer;
+}
+.navUser{
+    color:#ffffff;
+    padding-right: 100px;
+    cursor: pointer;
+}
+.jobType{
+    display: flex;
+    justify-content: center;
+
+}
+.content{
+    position: relative;
+    margin-top:20px;
+    height:200px;
+    width:900px;
+    box-shadow: 0px 0px 22px 4px #FF202040;
+}
+.inputGroup{
+    position: absolute;
+    top:30px;
+    left:70px;
+}
+.inputText{
+    height:35px;
+    width:750px;
+}
+.select{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 90px;
+    left: 70px;
+    border-radius: 5px;
+    border: 2px;
+    border: 2px solid #CECECE
+    
+}
+.skill{
+    display: flex;
+   
+}
+/* jobList */
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* height:500px ; */
+}
+
+.singleJob{
+    position: relative;
+    width: 900px;
+    height: 120px;
+    box-shadow: 0px 0px 22px 4px #FF202040;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+.singleJobType{
+    position: absolute;
+    left:60px;
+    top:10px;
+    font-weight: 500;
+    
+}
+/* singleJobPost */
+.singleJobBox{
+    display: flex;
+    justify-content: center;
+}
+.jobContent{
+    height:100px;
+    width: 850px;
+    box-shadow: 0px 4px 23px 2px #0000001A;
+    margin-top: -20px;
+    background-color: #ffffff;
+    z-index: 1;
+    text-align: center;
+}
+.jobContent h4{
+    margin-top: 20px;
+}
+.fullJobDescription{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    overflow-y: auto;
+}
+.description{
+    /* height:auto; */
+    width: 850px;
+    box-shadow: 0px 2px 35px 1px #0000001A;
+    border: 2px solid #0000001A;
+    padding: 5px;
+}
+.jobTitle{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+.aboutComp{
+    width: 800px;
+}
+.aboutComp p{
+    padding: 0px 20px 0px 20px;
+}
+.aboutComp h4{
+    padding: 0px 20px 0px 20px;
+}
+/* job-fields */
+label{
+    font-weight: bold;
+}
